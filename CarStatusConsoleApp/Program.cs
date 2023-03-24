@@ -9,7 +9,6 @@ namespace CarStatusConsoleApp
 {
     internal class Program
     {
-        public static string filepath = @"C:\Users\parvathy\Desktop\CarRunningStatus.txt";
         static void Main(string[] args)
         {
             string carStatus = "stopped";
