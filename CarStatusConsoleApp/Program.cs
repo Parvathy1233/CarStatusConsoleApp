@@ -15,13 +15,13 @@ namespace CarStatusConsoleApp
             string carStatus = "stopped";
             while(true)
             {
-                Console.Write("Enter command:");
+                Console.Write("Enter Command:");
                 string command=Console.ReadLine();
                 if(command == "start")
                 {
                     if (carStatus == "started")
                     {
-                        Console.WriteLine("Car is already started");
+                        Console.WriteLine("Car is Already Started");
                         Console.ReadKey();  
                     }
                     else
@@ -35,18 +35,18 @@ namespace CarStatusConsoleApp
                 {
                     if (carStatus == "stopped")
                     {
-                        Console.WriteLine("Car is already stopped");
+                        Console.WriteLine("Car is Already Stopped");
                         Console.ReadKey();
                     }
                     else
                     {
-                        Console.WriteLine("Car stopped");
+                        Console.WriteLine("Car Stopped");
                         Console.ReadKey();
                         carStatus = "stopped";
                     }
                 }
                 else{
-                    Console.WriteLine("Invalid command");
+                    Console.WriteLine("Invalid Command");
                     Console.ReadKey();
                 }
                     Console.Clear();
